@@ -1,6 +1,5 @@
-use image::{GenericImageView, GrayImage, Pixel};
+use image::GrayImage;
 use std::env;
-use std::fs::File;
 use std::io::{self, Write};
 
 /// Braille Unicode characters map 2×4 dot cells to code points 0x2800‑0x28FF.
